@@ -37,12 +37,12 @@ cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Co
 
 ```bash
 pip3 ranger-fm                                  # can not use package have bug
-brew install fzf
+brew install fzf                                # use git to install on linux
 brew insatll atool                              # for zip
-brew install w3m                                # for preview on linux
+brew install w3m                                # for preview on linux mac use iterm2
 brew install ffmpegthumbnailer                  # for preview video
 brew install pandoc                             # md to pdf
-brew install basictex                           # for pdflatex for mac
+brew install basictex                           # pdflatex for mac
 sudo apt-get install texlive-latext-base        # pdflatex for linux
 sudo apt-get install texlive-latext-recommended # pdflatex for linux
 sudo apt-get install texlive-fonts-recommended  # pdflatex for linux
