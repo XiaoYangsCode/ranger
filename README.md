@@ -29,15 +29,24 @@ this file show how to install ranger
 
 2. Install package
 
+  install nerd-font first at [https://github.com/ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 ```bash
-pip3 ranger-fm                 # for mac not brew
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+```
+
+```bash
+pip3 ranger-fm                                  # can not use package have bug
 brew install fzf
-brew insatll atool             # for zip
-brew install w3m               # for preview on linux
-brew install ffmpegthumbnailer # for preview video
-brew install pandoc            # md to pdf
-brew install basictex          # for pdflatex for mac
-brew install poppler           # pdf preview for mac
+brew insatll atool                              # for zip
+brew install w3m                                # for preview on linux
+brew install ffmpegthumbnailer                  # for preview video
+brew install pandoc                             # md to pdf
+brew install basictex                           # for pdflatex for mac
+sudo apt-get install texlive-latext-base        # pdflatex for linux
+sudo apt-get install texlive-latext-recommended # pdflatex for linux
+sudo apt-get install texlive-fonts-recommended  # pdflatex for linux
+brew install poppler                            # pdf preview for mac
 ```
 set alias
 ```bash
@@ -79,7 +88,7 @@ mime ^text,  label pager  = "$PAGER" -- "$@"
 !mime ^text, label editor, ext xml|json|csv|tex|py|pl|rb|js|sh|php = nvim -- "$@"
 !mime ^text, label pager,  ext xml|json|csv|tex|py|pl|rb|js|sh|php = "$PAGER" -- "$@"
 ```
-- Install plugins: Ranger Devicons plugin
+- Install plugins: Ranger Devicons plugin (needs to install nerd-font first)
 
 5. Custom commands
 - mkcd (mkdir + cd)
