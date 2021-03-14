@@ -29,6 +29,7 @@ this file show how to install ranger
 
 ```bash
 brew install ranger
+brew install fzf
 brew insatll atool             # for zip
 brew install w3m               # for preview on linux
 brew install ffmpegthumbnailer # for preview video
