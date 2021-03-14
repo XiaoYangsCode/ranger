@@ -1,5 +1,7 @@
 # Ranger Documentation
 
+before install ranger should install [iterm_beautiy](./doc/iterm_doc.md) first
+
 this file show how to install ranger
 
 1. Keymapping
@@ -28,7 +30,7 @@ this file show how to install ranger
 2. Install package
 
 ```bash
-brew install ranger
+pip3 ranger-fm                 # for mac not brew
 brew install fzf
 brew insatll atool             # for zip
 brew install w3m               # for preview on linux
