@@ -37,6 +37,7 @@ brew install w3m               # for preview on linux
 brew install ffmpegthumbnailer # for preview video
 brew install pandoc            # md to pdf
 brew install basictex          # for pdflatex for mac
+brew install poppler           # pdf preview for mac
 ```
 set alias
 ```bash
