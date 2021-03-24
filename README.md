@@ -8,25 +8,27 @@ git clone to `~/.config/`
 
 1. Keymapping
 
-| hotkey      | action                  |
-|-------------|-------------------------|
-| `a`         | rename create file      |
-| `A`         | rename file at the end  |
-| `I`         | rename file at the head |
-| `cw`        | buklrename              |
-| `M`         | mkcd                    |
-| `C-f`       | fzf_select              |
-| `g`         | go to fold              |
-| `o`         | sort                    |
-| `shift`+`s` | cd to path in terminal  |
-| `y`         | yank                    |
-| `p`         | paste                   |
-| `d`         | cut or delete           |
-| `space`     | choose one file         |
-| `v`         | choose all file         |
-| `w`         | task view               |
-| `C`         | compress file to zip    |
-| `yy`+`X`    | extract file from zip   |
+| hotkey      | action                      |
+|-------------|-----------------------------|
+| `a`         | rename create file          |
+| `A`         | rename file at the end      |
+| `I`         | rename file at the head     |
+| `at`        | create a new file           |
+| `af`        | create a new file with nvim |
+| `cw`        | buklrename                  |
+| `M`         | mkcd                        |
+| `C-f`       | fzf_select                  |
+| `g`         | go to fold                  |
+| `o`         | sort                        |
+| `shift`+`s` | cd to path in terminal      |
+| `y`         | yank                        |
+| `p`         | paste                       |
+| `d`         | cut or delete               |
+| `space`     | choose one file             |
+| `v`         | choose all file             |
+| `w`         | task view                   |
+| `C`         | compress file to zip        |
+| `yy`+`X`    | extract file from zip       |
 
 
 2. Install package
