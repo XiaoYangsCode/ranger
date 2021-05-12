@@ -5,3 +5,4 @@ trash_history
 git_init.sh
 
 rc.conf
+plugins/__init__.py
