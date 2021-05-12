@@ -6,3 +6,5 @@ git_init.sh
 
 rc.conf
 plugins/__init__.py
+plugins/__init__.pyo
+plugins/__init__.pyo
