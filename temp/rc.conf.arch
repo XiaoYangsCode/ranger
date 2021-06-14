@@ -796,6 +796,7 @@ map guu cd /usr
 map C console compress%space
 map X console extracthere%space
 # md to pdf
-map cp shell pandoc %f -o %f.pdf
+#map cp shell pandoc %f -o %f.pdf
+map cp shell pandoc %f -o %f.pdf --pdf-engine=xelatex -V CJKmainfont='Source Han Sans CN'
 
 map <A-g> shell lazygit
